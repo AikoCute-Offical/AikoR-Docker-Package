@@ -61,7 +61,7 @@ vi aiko.yml
 
 Step 3 : Install
 ```
-docker pull ghcr.io/aikocute/aikor:latest && docker run --restart=always --name aikor -d -v /root/aiko.yml:/etc/AikoR/aiko.yml --network=host ghcr.io/aikocute/aikor:latest
+docker pull ghcr.io/aikocute-offical/aikor:latest && docker run --restart=always --name aikor -d -v /root/aiko.yml:/etc/AikoR/aiko.yml --network=host ghcr.io/aikocute-offical/aikor:latest
 ```
 
 2 : Install With Docker_Compose ( Recomend Using )
