@@ -56,7 +56,7 @@ systemctl enable docker
 Step 2 : Setting Config
     Create Config File ( the example is done in the root directory )
 ```
-vi aiko.yml
+nano aiko.yml
 ```
 
 Step 3 : Install
