@@ -1,0 +1,8 @@
+version: '3'
+services: 
+  AikoR-Docker: 
+    image: ghcr.io/aikocute-offical/aikor:latest
+    volumes:
+      - ./AikoR:/etc/AikoR/ #AikoCute
+    restart: always
+    network_mode: host
